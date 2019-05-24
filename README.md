@@ -11,7 +11,7 @@ This gives me the possibility to store configurations for all kinds of project t
 > I include interesting information and external resources to help you (and me) get started when using those configs.
 
  - Visual Studio Code
-    - [Overview and resources](vscode/VSCODE.md)
+    - [Overview and resources](vscode/README.md)
     - [settings.json](vscode/settings.json)
 
 
