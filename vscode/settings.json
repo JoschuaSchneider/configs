@@ -4,74 +4,74 @@
     Aims to provide a minimal, destraction free editing environment.
 */
 {
-    /*
+  /*
         Behavior
 
         Explorer behavior, saving etc.
 
         No DragAndDrop -> I move files with git/terminal for source control
     */
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.enableDragAndDrop": false,
-    "workbench.commandPalette.preserveInput": true,
-    "window.nativeTabs": true,
-    "extensions.closeExtensionDetailsOnViewChange": true,
-    "problems.autoReveal": false,
-
-    /*
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.enableDragAndDrop": false,
+  "workbench.commandPalette.preserveInput": true,
+  "window.nativeTabs": true,
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "problems.autoReveal": false,
+  "better-comments.multilineComments": true,
+  /*
         Appearance
 
         Enable breadcrumbs to show current location
         Disable minimap
     */
-    "breadcrumbs.enabled": true,
-    "editor.minimap.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.tips.enabled": false,
-    "workbench.editor.highlightModifiedTabs": true,
-    /*
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  /*
         Emmet configuration:
 
         Adding emmet expansion to react/jsx
     */
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    /*
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  /*
         Formatting/Linting
 
         Enable prettier through eslint configuration
     */
-    "prettier.eslintIntegration": true,
-    /*
+  "prettier.eslintIntegration": true,
+  /*
         GitLens minimal setup
 
         Disable hovers, line annotations etc.
         For performance and readability. I use the cli anyways :)
     */
-    "gitlens.views.repositories.location": "gitlens",
-    "gitlens.views.fileHistory.location": "gitlens",
-    "gitlens.views.lineHistory.location": "gitlens",
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.search.location": "gitlens",
-    "gitlens.menus": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.hovers.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.views.repositories.enabled": false,
-    "gitlens.mode.statusBar.enabled": false,
-    /*
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "gitlens.menus": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.views.repositories.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  /*
         Disable unused features
 
         Disable autoDetect for tools/languages I never use
     */
-    "grunt.autoDetect": "off",
-    "gulp.autoDetect": "off",
-    "jake.autoDetect": "off",
-    "php.suggest.basic": false,
-    /*
+  "grunt.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "jake.autoDetect": "off",
+  "php.suggest.basic": false
+  /*
         Uncommented settings
     */
 }
