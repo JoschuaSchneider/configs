@@ -18,7 +18,6 @@
   "window.nativeTabs": true,
   "extensions.closeExtensionDetailsOnViewChange": true,
   "problems.autoReveal": false,
-  "better-comments.multilineComments": true,
   /*
         Appearance
 
