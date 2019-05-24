@@ -6,6 +6,12 @@ With this collection I'm trying to standardize my developer experience over time
 
 This gives me the possibility to store configurations for all kinds of project types, comment and update them and reuse them in the future.
 
+## important notes
+
+The configuration files in the root folder are just for formatting all the other .js and .json files.
+
+If you are looking for general `prettier` configs for example, look into the prettier directory.
+
 # Contribute? :open_mouth:
 Why should you care about my configs?
 
